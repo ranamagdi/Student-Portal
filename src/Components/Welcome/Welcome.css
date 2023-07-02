@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Welcome{
+
+    background-image: url(../../assets/images/secondary_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+
+}
+.overlay-welcome{
+    background-color:var(--top-bg);
+    opacity: .8px;
+    height: 100vh;
+    width: 100%;
+    padding-top: 14em;
+
+}
+.Date_portal p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: var(--white);
+    margin-bottom: 8px;
+
+}
+.hr-welcome{
+ height: 1px;
+ width: 13%;
+ background-color: var(--secondary);
+ margin-bottom: 8px;
+
+}
+
+.Welcome h1{
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 36px;
+ line-height: 43.57px;
+ color:var(--white);
+}
+.Welcome h1 span{
+  color: var(--btn-defauit);
+}
+.Welcome Button{
+    text-transform: uppercase;
+    background-color: var(--btn-defauit);
+    border: 0;
+    margin-left: 29rem;
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+
+
+
+}
+.Welcome Button:hover{
+    background-color: var(--btn-hover);
+}
+/*dashboard-student*/
+.dashboard-student{
+    background-color: #00000030;
+    width: 1276px;
+    height: 199px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 40px 0 40px 3px;
+
+
+  }
+
+  .dashboard-student h2{
+      display: inline-block;
+      border-radius: 5px;
+      line-height: 29.05px;
+      color: var(--white);
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: left;
+      width: 10%;
+
+
+
+
+  }
+  .dashboard-student .content{
+  margin-top: 63px;
+  width: 262px;
+
+  }
+  .dashboard-student .content.md{
+      margin-right: 12rem;
+      margin-left: 12rem;
+  }
+
+  .dashboard-student .content-numbers{
+
+      border: var(--btn-defauit) 1px solid;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58.09px;
+      padding: 15.5px 30.5px;
+      border-radius: 5px;
+      position: relative;
+      right: 15px;
+      color: var(--white);
+
+  }
+  /*progress-welcome*/
+  .progress-welcome .content p{
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 29.05px;
+   color: var(--white);
+  }
+  .progress-welcome .percentage{
+      padding-left: 36em;
+  }
+  .progress-welcome .progress{
+      margin-left: 10px;
+      width: 97%;
+
+  }
+  .progress, .progress-stacked {
+       padding: 0 !important;
+      --bs-progress-bar-bg:var(--btn-defauit);
+  }
+  /*Exam-today*/
+  .Exam-today{
+      width: 741px;
+      background-color:var(--exam-today);
+      border-radius: 5px;
+      margin: 40px 0 40px 0;
+
+
+  }
+  .Exam-today .Exam-today-content{
+      padding-top: 31.5px;
+      padding-bottom: 31.5px;
+
+
+  }
+  .not-exist span{
+      color: var(--white);
+      font-size: 24px;
+      font-family: 600;
+      line-height: 29.05px;
+      text-transform: uppercase;
+      position: relative;
+      top: 5px;
+
+
+  }
+  .Exam-today .Exam-today-content .Exam-today-icon{
+      font-size: 56px;
+      font-weight: 300;
+      margin-right: 15px;
+      color: var(--white);
+
+  }
+  .not-exist{
+      text-align: center;
+      /* display: none; */
+  }
+
+  .exist Button{
+    display: inline !important;
+    margin-top: -50px;
+
+  }
+  .exist{
+      text-align: left;
+      padding-left: 40px;
+      display: flex;
+      flex-direction: row;
+      display: none;
+
+
+
+  }
+  .exist span{
+      position: relative;
+      color: var(--white);
+      font-size: 24px;
+      font-family: 600;
+      line-height: 29.05px;
+      text-transform: uppercase;
+      padding-top: 20px;
+  }
+
