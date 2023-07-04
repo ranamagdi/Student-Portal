@@ -30,69 +30,60 @@ function Welcome(){
                    </Row>
             </Container>
            <Container className="welcome-content">
-             <Row>
-                <Col size={12} md={6} sm={6}>
                     <h1>Welcome Back <span>username</span></h1>
-                </Col>
-                <Col size={12} md={6} sm={6}>
-                <Button >View Profile</Button>
-                </Col>
-             </Row>
+                   <Button >View Profile</Button>
            </Container>
 
            <Container>
-              <Row className="dashboard-student">
+              <div className="dashboard-student">
 
-                 <Col className="content" size={12} md={4} sm={4}>
+                 <div className="content">
                     <span className="content-numbers">1</span>
                     <h2>Upcoming<span> Exams</span> </h2>
-
-                 </Col>
-                 <Col className="content md" size={12} md={4} sm={4}>
+                 </div>
+                 <div className="content md" >
                     <span className="content-numbers">4</span>
                     <h2>Registered<span> Courses</span> </h2>
 
-                 </Col>
-                 <Col className="content" size={12} md={4} sm={4}>
+                 </div>
+                 <div className="content" >
                    <span className="content-numbers">2</span>
                     <h2>Completed<span> Courses</span> </h2>
-
-                 </Col>
-             </Row>
+                 </div>
+             </div>
            </Container>
 
-           <Container>
-              <Row className="progress-welcome">
+           <Container className="progress-welcome-container">
+              <div className="progress-welcome">
 
-                 <Col className="content" size={12} md={6} sm={6}>
-                    <p>Level 1:</p>
-                 </Col>
-                 <Col className="content percentage" size={12} md={6} sm={6}>
+                 <div className="content" >
+                    <p>Level : 1</p>
+                 </div>
+                 <div className="content percentage" >
                     <p>{`${now}%`}</p>
-                 </Col>
-                 <ProgressBar min={0} now={now}/>
+                 </div>
 
-             </Row>
+             </div>
+             <ProgressBar min={0} now={now}/>
            </Container>
 
 
            <Container>
-              <Row className="Exam-today">
+              <div className="Exam-today">
 
-                 <Col className="Exam-today-content not-exist">
+                 <div className="Exam-today-content not-exist">
                     <FaRegCircleCheck className='Exam-today-icon'/>
                     <span> All Clear,you don't have any exams today.</span>
-                 </Col>
+                 </div>
 
-                 <Col className="Exam-today-content exist">
-                   <span >The name of exam topic  <Button >Go to Exam</Button></span>
-
-
-                 </Col>
-
+                 <div className="Exam-today-content exist">
+                   <span >The name of exam topic </span>
+                   <Button >Go</Button>
+                 </div>
 
 
-             </Row>
+
+             </div>
            </Container>
 
 
