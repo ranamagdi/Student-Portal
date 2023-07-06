@@ -77,7 +77,7 @@ function Welcome(){
                  </div>
 
                  <div className="Exam-today-content exist">
-                   <span >The name of exam topic </span>
+                   <span >The exam topic </span>
                    <Button >Go</Button>
                  </div>
 

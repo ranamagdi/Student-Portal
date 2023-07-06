@@ -140,6 +140,7 @@
    font-size: 24px;
    font-weight: 600;
    line-height: 29.05px;
+   text-transform: uppercase;
    color: var(--white);
   }
 
@@ -194,7 +195,7 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      display: none;
+      /* display: none; */
   }
 
 
@@ -204,7 +205,7 @@
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
-      /* display: none; */
+      display: none;
 
 
 
@@ -222,7 +223,21 @@
 
 
 
-  @media (max-width:991px){
+  @media (max-width:991px ) and (min-width:200px){
+    .progress-welcome-container{
+        margin-top: -32rem;
+
+
+      }
+  }
+  @media (max-width:991px ) and (min-width:700px){
+    .progress-welcome-container{
+        margin-top: -29rem;
+
+
+      }
+  }
+  @media (max-width:991px ) {
     .hr-welcome{
         width: 21%;
     }
@@ -262,11 +277,7 @@
 
 
       }
-      .progress-welcome-container{
-        margin-top: -32rem;
 
-
-      }
       .Exam-today{
         width: 99%;
         margin-top: 27rem;
