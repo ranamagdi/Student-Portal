@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Circle_Progress{
+    background-color: var(--footer-bg);
+    height: 100vh;
+
+
+}
+.Circle_Progress h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: var(--white);
+    width: 55%;
+}
+.Circle_Progress span{
+    font-weight: 400;
+    color: var( --Primary);
+}
+.Circle_Progress .Progress{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+.Circle_Progress .Progress .progress-one{
+    background-color: var(--course);
+    text-align: center;
+    padding: 20px 0;
+    width: 260px;
+}
+.progress-div{
+
+    width:176px ;
+    height: 176px;
+    margin-bottom: 20px;
+}
+.progress-div .circle{
+    margin-left: 40px;
+    stroke: var(--white);
+
+}
+.CircularProgressbar-path {
+    stroke: var(--btn-defauit) !important;
+  }
+.Circle_Progress .Progress .course_name{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    margin-bottom: 30px;
+
+}
+.Circle_Progress .Progress p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height:29.05px ;
+    color: var(--white);
+
+}
+.Circle_Progress .Progress .Lev-p{
+
+    font-size: 38px;
+    line-height: 43.57px;
+}

@@ -1,9 +1,8 @@
 import React from "react";
 import { Button, Container, Row,Col } from "react-bootstrap";
-import './Registered_courses.css';
+import './Registered_courses_instructor.css';
 import {FaRegClock,FaRegPenToSquare,FaRegUser} from 'react-icons/fa6';
-
-function Registered_courses(){
+function Registered_courses_instructor(){
   const time = new Date(2023, 7, 5, 22, 31);
   const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -31,25 +30,32 @@ function Registered_courses(){
     return strTime;
 }
     return(
-        <section className="Registered_courses_Student">
+        <section className="Registered_courses">
             <Container>
                 <div className="Courses-exam">
                 <div className="courses">
-                <h2  className="display">Registered Courses</h2>
-                <h2 className="display-responsive">Ongoing Courses</h2>
+                <h2>Ongoing Courses</h2>
                 <div className="course">
                    <h2>Introduction to React js</h2>
-                   <p className="instructor-p"><span>Instructor</span> : Traiq Ali</p>
+                 
                    <div className="level-btn">
                      <h2>Lev.1</h2>
+                     <div className="icon-instructor">
+                     <FaRegUser className="instructor-user"/>
+                     <span>20 Students</span>
+                     </div>
                      <Button>View Details</Button>
                    </div>
                 </div>
                 <div className="course">
                    <h2>Introduction to Data Analysis</h2>
-                   <p className="instructor-p"><span>Instructor</span> : sara ahmed</p>
+
                    <div className="level-btn">
                      <h2>Lev.1</h2>
+                     <div className="icon-instructor">
+                      <FaRegUser className="instructor-user"/>
+                     <span>20 Students</span>
+                     </div>
                      <Button>View Details</Button>
                    </div>
                 </div>
@@ -65,6 +71,7 @@ function Registered_courses(){
                     <div className="course-exam">
                      <div className="edit-instructor">
                     <h2>Introduction to React js</h2>
+                    <FaRegPenToSquare className="edit-icon"/>
                     </div>
                     <p><span>Instructor</span> : Traiq Ali</p>
                    <div className="level-icon">
@@ -89,4 +96,4 @@ function Registered_courses(){
         </section>
     )
 }
-export default Registered_courses;
+export default Registered_courses_instructor;

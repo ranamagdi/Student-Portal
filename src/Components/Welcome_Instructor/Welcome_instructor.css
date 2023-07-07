@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.Welcome_Student{
+.Welcome{
 
     background-image: url(../../assets/images/secondary_background.jpg);
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 
 
 }
-.Welcome_Student .overlay-welcome{
+.overlay-welcome{
     background-color:var(--top-bg);
     opacity: .8px;
     width: 100%;
@@ -24,7 +24,7 @@
     padding-bottom: 15px;
 
 }
-.Welcome_Student .Date_portal p{
+.Date_portal p{
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
@@ -32,14 +32,14 @@
     margin-bottom: 8px;
 
 }
-.Welcome_Student .hr-welcome{
+.hr-welcome{
  height: 1px;
  width: 13%;
  background-color: var(--secondary);
  margin-bottom: 8px;
 
 }
-.Welcome_Student .welcome-content{
+.welcome-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,7 +47,7 @@
     align-content: center;
 
 }
-.Welcome_Student h1{
+.Welcome h1{
  text-transform: uppercase;
  font-weight: 600;
  font-size: 36px;
@@ -55,10 +55,10 @@
  color:var(--white);
 
 }
-.Welcome_Student h1 span{
+.Welcome h1 span{
   color: var(--btn-defauit);
 }
-.Welcome_Student Button{
+.Welcome Button{
 
     text-transform: uppercase;
     background-color: var(--btn-defauit)!important;
@@ -73,12 +73,12 @@
 
 
 }
-.Welcome_Student Button:hover{
+.Welcome Button:hover{
     background-color: var(--btn-hover)!important;
 }
 
 /*dashboard-student*/
-.Welcome_Student .dashboard-student{
+.dashboard-student{
     background-color: #00000030;
     height: 199px;
     border-radius: 5px;
@@ -93,7 +93,7 @@
 
   }
 
-  .Welcome_Student .dashboard-student h2{
+  .dashboard-student h2{
       display: inline-block;
       border-radius: 5px;
       line-height: 29.05px;
@@ -108,16 +108,16 @@
 
 
   }
-  .Welcome_Student .dashboard-student .content{
+  .dashboard-student .content{
   width: 262px;
 
   }
-  .Welcome_Student .dashboard-student .content.md{
+  .dashboard-student .content.md{
     margin-left: 7rem;
     margin-right:7rem;
   }
 
-  .Welcome_Student .dashboard-student .content-numbers{
+  .dashboard-student .content-numbers{
 
       border: var(--btn-defauit) 1px solid;
       font-weight: 700;
@@ -131,12 +131,12 @@
 
   }
   /*progress-welcome*/
-  .Welcome_Student .progress-welcome{
+  .progress-welcome{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .Welcome_Student .progress-welcome .content p{
+  .progress-welcome .content p{
    font-size: 24px;
    font-weight: 600;
    line-height: 29.05px;
@@ -144,7 +144,7 @@
    color: var(--white);
   }
 
-  .Welcome_Student .progress-welcome .progress{
+  .progress-welcome .progress{
       margin-left: 10px;
       width: 97%;
 
@@ -154,7 +154,7 @@
       --bs-progress-bar-bg:var(--btn-defauit);
   }
   /*Exam-today*/
-  .Welcome_Student .Exam-today{
+  .Exam-today{
       width: 741px;
       background-color:var(--exam-today);
       border-radius: 5px;
@@ -164,7 +164,7 @@
 
 
   }
-  .Welcome_Student .Exam-today .Exam-today-content{
+  .Exam-today .Exam-today-content{
       padding-top: 31.5px;
       padding-bottom: 31.5px;
       text-align: left;
@@ -172,7 +172,7 @@
 
 
   }
-  .Welcome_Student .not-exist span{
+  .not-exist span{
       color: var(--white);
       font-size: 24px;
       font-family: 600;
@@ -184,13 +184,13 @@
 
 
   }
-  .Welcome_Student .Exam-today .Exam-today-content .Exam-today-icon{
+  .Exam-today .Exam-today-content .Exam-today-icon{
       font-size: 56px;
       font-weight: 300;
       color: var(--white);
 
   }
-  .Welcome_Student .not-exist{
+  .not-exist{
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -199,7 +199,7 @@
   }
 
 
- .Welcome_Student .exist{
+  .exist{
 
       display: flex;
       flex-direction: row;
@@ -210,7 +210,7 @@
 
 
   }
-  .Welcome_Student .exist span{
+  .exist span{
       position: relative;
       color: var(--white);
       font-size: 24px;
@@ -223,94 +223,83 @@
 
 
 
-  @media (max-width:991px ) and (min-width:200px){
-   .Welcome_Student .progress-welcome-container{
-        margin-top: -32rem;
 
 
-      }
-  }
-  @media (max-width:991px ) and (min-width:700px){
-    .Welcome_Student .progress-welcome-container{
-        margin-top: -29rem;
-
-
-      }
-  }
   @media (max-width:991px ) {
-   .Welcome_Student .hr-welcome{
+    .hr-welcome{
         width: 21%;
     }
-    .Welcome_Student h1{
+    .Welcome h1{
      margin-top: 30px;
      font-size: 30px;
      width: 70%;
        }
-     .Welcome_Student Button{
+     .Welcome Button{
        margin-top: 70px;
        width: 150px;
        height: 40px;
 
 
     }
-   .Welcome_Student .welcome-content{
+    .welcome-content{
 
         justify-content: center;
 
 
     }
-    .Welcome_Student{
+    .Welcome{
 
       background-position: 50% ;
 
     }
-    .Welcome_Student .dashboard-student .content.md{
+    .dashboard-student .content.md{
         margin-top: 3rem;
         margin-bottom:3rem;
         margin-left: 0;
         margin-right: 0;
       }
-     .Welcome_Student .dashboard-student{
+      .dashboard-student{
         height: 100%;
         padding: 45px 0;
-        margin-top: 8rem;
+        margin-top: 2rem;
 
 
       }
 
-     .Welcome_Student .Exam-today{
+      .Exam-today{
         width: 99%;
-        margin-top: 27rem;
+
       }
 
-    .Welcome_Student .exist Button{
+    .exist Button{
         margin-top: -10px;
         width: 150px;
         height: 40px;
 
 
     }
-   .Welcome_Student .not-exist span{
+    .not-exist span{
         padding-left: 10px;
         position: relative;
         width: 260px;
         font-size: 20px;
     }
-    .Welcome_Student .not-exist{
+    .not-exist{
         padding-left: 15px;
         padding-right: 15px;
     }
-    .Welcome_Student .exist{
+    .exist{
         padding-left: 15px;
         padding-right: 15px;
     }
-   .Welcome_Student .Exam-today .Exam-today-content .Exam-today-icon{
+    .Exam-today .Exam-today-content .Exam-today-icon{
         font-size: 52px;
         width: 15%;
 
     }
 
     }
+
 
 
 

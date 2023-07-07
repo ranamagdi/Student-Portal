@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container, Row,Col, ProgressBar } from "react-bootstrap";
 import {FaRegCircleCheck} from 'react-icons/fa6';
-import './Welcome.css';
+import './Welcome_instructor.css';
 import { format } from 'date-fns';
 
 
@@ -9,7 +9,7 @@ import { format } from 'date-fns';
 
 
 
-function Welcome(){
+function Welcome_instructor(){
    const now = 97;
    const dateString = format(
       new Date(),
@@ -18,12 +18,12 @@ function Welcome(){
 
 
     return(
-        <section className="Welcome_Student">
+        <section className="Welcome">
           <div className="overlay-welcome">
             <Container className="Date_portal">
                    <Row>
                    <Col size={12} md={6} sm={6}>
-                    <p>Student Portal </p>
+                    <p>Instructor Portal </p>
                     <div className="hr-welcome"></div>
                     <p>{dateString}</p>
                     </Col>
@@ -53,19 +53,6 @@ function Welcome(){
              </div>
            </Container>
 
-           <Container className="progress-welcome-container">
-              <div className="progress-welcome">
-
-                 <div className="content" >
-                    <p>Level : 1</p>
-                 </div>
-                 <div className="content percentage" >
-                    <p>{`${now}%`}</p>
-                 </div>
-
-             </div>
-             <ProgressBar min={0} now={now}/>
-           </Container>
 
 
            <Container>
@@ -96,4 +83,4 @@ function Welcome(){
         </section>
     )
 }
-export default Welcome;
+export default Welcome_instructor;
