@@ -12,41 +12,59 @@ function Circle_Progress(){
                 <div className="Progress">
 
                     <div className="progress-one">
+                    <div className="circle-first"> <CircularProgressbar className="circle_big" value={percentage}  />
                     <div className="progress-div">
                     <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
                     </div>
+                    </div>
+                   <div className="content-course">
                     <p className="course_name">Introduction to React js</p>
                     <p className="Lev-p">LEV. 1</p>
                     <p>27 / 30 Hours</p>
+                    </div>
+                    </div>
+
+
+                    <div className="progress-one">
+                    <div className="circle-first"> <CircularProgressbar className="circle_big" value={percentage}  />
+                    <div className="progress-div">
+                    <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
+                    </div>
+                    </div>
+
+                    <div>
+                    <p className="course_name">Introduction to React js</p>
+                    <p className="Lev-p">LEV. 1</p>
+                    <p>27 / 30 Hours</p>
+                    </div>
+                    </div>
+
+
+                    <div className="progress-one">
+                    <div className="circle-first"> <CircularProgressbar className="circle_big" value={percentage}  />
+                    <div className="progress-div">
+                    <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
+                    </div>
+                    </div>
+                    <div>
+                    <p className="course_name">Introduction to React js</p>
+                    <p className="Lev-p">LEV. 1</p>
+                    <p>27 / 30 Hours</p>
+                    </div>
                     </div>
 
                     <div className="progress-one">
+                    <div className="circle-first"> <CircularProgressbar className="circle_big" value={percentage}  />
                     <div className="progress-div">
                     <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
                     </div>
+                    </div>
+                    <div>
                     <p className="course_name">Introduction to React js</p>
                     <p className="Lev-p">LEV. 1</p>
                     <p>27 / 30 Hours</p>
                     </div>
-
-                    <div className="progress-one">
-                    <div className="progress-div">
-                    <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
                     </div>
-                    <p className="course_name">Introduction to React js</p>
-                    <p className="Lev-p">LEV. 1</p>
-                    <p>27 / 30 Hours</p>
-                    </div>
-
-                    <div className="progress-one">
-                    <div className="progress-div">
-                    <CircularProgressbar className="circle" value={percentage} text={`${percentage}%`} />
-                    </div>
-                    <p className="course_name">Introduction to React js</p>
-                    <p className="Lev-p">LEV. 1</p>
-                    <p>27 / 30 Hours</p>
-                    </div>
-
                 </div>
 
             </Container>
